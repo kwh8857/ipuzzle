@@ -1,0 +1,41 @@
+#root .header {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 70px;
+  top: 0;
+  background-color: #60e7a3;
+  padding-left: 127.6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .header img {
+  cursor: pointer;
+  width: 148.6px;
+  height: 36.7px;
+}
+
+#root .header .menu_wrapper {
+  position: absolute;
+  right: 133px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  -webkit-column-gap: 66px;
+          column-gap: 66px;
+}
+
+#root .header .menu_wrapper .menu {
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
