@@ -19,6 +19,12 @@ const layouts = (state = initialState, {
   payload
 }) => {
   switch (type) {
+    case 'LAYOUTS/USER/CHANGE':
+      return {
+        ...state,
+        userState: payload
+      };
+
     default:
       return state
   }

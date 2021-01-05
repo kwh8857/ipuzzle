@@ -1,0 +1,53 @@
+@font-face {
+  font-family: KoPub_Bold;
+  src: local(KoPub Dotum_Pro Bold),
+    url(fontFile/KoPub\ Dotum_Pro\ Bold.otf) format('OpenType');
+  font-style: normal;
+  font-weight: bold;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: KoPub_Light;
+  src: local(KoPub Dotum_Pro Light),
+    url(fontFile/KoPub\ Dotum_Pro\ Light.otf) format('OpenType');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: KoPub_Medium;
+  src: local(KoPub Dotum_Pro Medium),
+    url(fontFile/KoPub\ Dotum_Pro\ Medium.otf) format('OpenType');
+  font-style: normal;
+  font-weight: medium;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: tvn_Bold;
+  src: local(tvN Enjoystories Bold),
+    url(fontFile/tvN\ Enjoystories\ Bold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: bold;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: tvn_Medium;
+  src: local(tvN Enjoystories Medium),
+    url(fontFile/tvN\ Enjoystories\ Medium.ttf) format('truetype');
+  font-style: normal;
+  font-weight: medium;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: tvn_Light;
+  src: local(tvN Enjoystories Light),
+    url(fontFile/tvN\ Enjoystories\ Light.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}

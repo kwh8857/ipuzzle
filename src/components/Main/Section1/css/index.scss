@@ -1,0 +1,40 @@
+#root {
+  .section1 {
+    width: 100%;
+    height: 677px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .wrapper {
+      margin: 0 auto;
+      width: 1280px;
+      height: 100%;
+      box-sizing: border-box;
+      padding-top: 158px;
+
+      .left {
+        .title {
+          font-size: 90px;
+          font-family: 'tvn_Medium';
+        }
+
+        .sub {
+          margin-top: 13px;
+          font-size: 18px;
+          font-family: 'KoPub_Medium';
+          line-height: 1.67;
+        }
+      }
+    }
+
+    img {
+      width: 859px;
+      height: 877.3px;
+      position: absolute;
+      right: 0;
+      bottom: -200px;
+    }
+  }
+}

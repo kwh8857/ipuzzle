@@ -1,0 +1,49 @@
+#root .section2 {
+  width: 100%;
+  height: 1239px;
+  position: relative;
+}
+
+#root .section2 .wrapper {
+  margin: 0 auto;
+  width: 1280px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 459px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .section2 .wrapper .title {
+  text-align: center;
+  font-family: 'KoPub_Medium';
+  font-size: 35px;
+}
+
+#root .section2 .wrapper .title span {
+  font-family: 'KoPub_Bold';
+}
+
+#root .section2 .wrapper img {
+  margin-top: 66.2px;
+}
+
+#root .section2 .greybox {
+  z-index: -1;
+  height: 548px;
+  width: 100%;
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/*# sourceMappingURL=index.css.map */

@@ -13,6 +13,7 @@ body {
   color: black;
   overflow-x: hidden;
   overflow-y: auto;
+  font-family: "KoPub_Light", sans-serif;
 }
 
 img {
