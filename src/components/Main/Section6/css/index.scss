@@ -25,3 +25,31 @@
 
   }
 }
+
+@media screen and (max-width: 760px) {
+  #root {
+    .section6 {
+      height: 579px;
+      padding-top: 109px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+
+      .top {
+        font-size: 50px;
+
+        span {
+          font-size: 13px;
+        }
+      }
+
+      .main_img {
+        width: 331px;
+        height: 312px;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+}

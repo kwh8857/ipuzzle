@@ -3,6 +3,7 @@ import "./css/index.css";
 import { useSelector } from "react-redux";
 function Section4() {
   const layouts = useSelector((state) => state.layouts.main.s4);
+  const Agent = useSelector((state) => state.layouts.userState);
   return (
     <div className="section4">
       <div className="top">
@@ -15,7 +16,7 @@ function Section4() {
         </div>
       </div>
       <div className="bottom">
-        {layouts.map(({ img, title, sub }, idx) => {
+        {layouts.map(({ img, title, sub, mbsub }, idx) => {
           return (
             <div
               className={img}
@@ -32,7 +33,9 @@ function Section4() {
                 </div>
                 <div className="bottom_right">
                   <div className="bottom_title">{title}</div>
-                  <div className="bottom_sub">{sub}</div>
+                  <div className="bottom_sub">
+                    {Agent === "PC" ? sub : mbsub}
+                  </div>
                 </div>
               </div>
             </div>

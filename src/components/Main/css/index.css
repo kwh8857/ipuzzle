@@ -1,0 +1,10 @@
+#root .main {
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 760px) {
+  #root .main {
+    padding-top: 60px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

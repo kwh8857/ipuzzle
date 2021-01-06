@@ -37,3 +37,35 @@ $main : #60e7a3;
     }
   }
 }
+
+@media screen and (max-width: 760px) {
+  #root {
+    .section3 {
+      height: auto;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+
+      .right {
+        height: 251px;
+        padding: 0;
+        padding-top: 54.5px;
+
+        img {
+          width: 157.2px;
+          height: 38.9px;
+        }
+
+        .title {
+          font-size: 25px;
+          margin-top: 12.7px;
+        }
+      }
+
+      .mainimg {
+        position: unset;
+        width: 100%;
+      }
+    }
+  }
+}

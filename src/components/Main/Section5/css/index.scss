@@ -38,3 +38,32 @@ $main : #60e7a3;
     }
   }
 }
+
+@media screen and (max-width: 760px) {
+  #root {
+    .section5 {
+      .top {
+        .wrapper {
+          width: 100%;
+          height: 325px;
+          padding-top: 84px;
+
+          .title {
+            font-size: 22px;
+          }
+
+          .logo {
+            width: 157.2px;
+            height: 38.9px;
+            margin-top: 8.1px;
+          }
+
+          .main_img {
+            width: 297px;
+            height: 150px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -55,4 +55,26 @@
   bottom: 0;
   left: 0;
 }
+
+@media screen and (max-width: 760px) {
+  #root .section2 {
+    height: 605px;
+  }
+  #root .section2 .wrapper {
+    width: 100%;
+    padding-top: 271px;
+  }
+  #root .section2 .wrapper .title {
+    font-size: 22px;
+  }
+  #root .section2 .wrapper .title span .line {
+    width: 245px;
+    height: 33.6px;
+  }
+  #root .section2 .wrapper img {
+    width: 317px;
+    height: 155px;
+    margin-top: 41px;
+  }
+}
 /*# sourceMappingURL=index.css.map */

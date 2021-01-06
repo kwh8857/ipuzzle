@@ -1,0 +1,57 @@
+#root {
+
+
+  .question {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      font-size: 40px;
+      font-family: 'KoPub_Bold';
+    }
+
+    .sub {
+      font-size: 18px;
+      font-family: 'KoPub_Medium';
+      margin-top: 13px;
+      margin-bottom: 35px;
+    }
+
+    .box {
+      font-family: 'KoPub_Bold';
+      display: flex;
+      width: 541px;
+      height: 80px;
+      align-items: center;
+      padding: 18px 32px 18px 19px;
+      border-radius: 50px;
+      box-sizing: border-box;
+      font-size: 20px;
+      position: relative;
+
+      .google {
+        width: 44px;
+        height: 44px;
+      }
+
+      .youtube {
+        width: 41px;
+        height: 28.8px;
+      }
+
+      .box_title {
+        margin-left: 15px;
+      }
+
+      .box_right {
+        position: absolute;
+        right: 32px;
+      }
+    }
+  }
+}

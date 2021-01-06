@@ -1,0 +1,20 @@
+#root {
+  .footer {
+    height: 278px;
+    background-color: #2e2e2e;
+
+    .wrapper {
+      width: 1280px;
+      margin: 0 auto;
+      padding-top: 149.6px;
+      box-sizing: border-box;
+
+      .content {
+        font-size: 13px;
+        color: white;
+        font-family: 'Noto Sans KR',
+          sans-serif;
+      }
+    }
+  }
+}

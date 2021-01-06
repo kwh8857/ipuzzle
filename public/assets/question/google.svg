@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="google" width="44" height="44" viewBox="0 0 44 44">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="패스_32" d="M604.68 741.989a24.769 24.769 0 0 0-.408-4.5h-21.143V746h12.082a10.111 10.111 0 0 1-4.48 6.64v5.52h7.255c4.245-3.83 6.694-9.47 6.694-16.17zm0 0" class="cls-1" transform="translate(-583.129 -737.488)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="패스_33" d="M560.13 773.225a21.689 21.689 0 0 0 14.857-5.33l-7.255-5.52a13.7 13.7 0 0 1-7.6 2.1 13.351 13.351 0 0 1-12.561-9.07h-7.5v5.7a22.491 22.491 0 0 0 20.061 12.12zm0 0" class="cls-1" transform="translate(-540.069 -755.405)"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path id="패스_34" d="M544.831 738.67a12.765 12.765 0 0 1 0-8.36v-5.7h-7.5a21.632 21.632 0 0 0 0 19.76l7.5-5.7zm0 0" class="cls-1" transform="translate(-534.943 -724.61)"/>
+        </clipPath>
+        <clipPath id="clip-path-4">
+            <path id="패스_35" d="M560.13 706.814a12.263 12.263 0 0 1 8.582 3.29l6.439-6.31a21.816 21.816 0 0 0-15.02-5.73 22.491 22.491 0 0 0-20.061 12.12l7.5 5.7a13.351 13.351 0 0 1 12.561-9.07zm0 0" class="cls-1" transform="translate(-540.069 -698.064)"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none;clip-rule:evenodd}
+        </style>
+    </defs>
+    <g id="그룹_31" transform="translate(22.449 18)">
+        <g id="그룹_30" clip-path="url(#clip-path)">
+            <path id="사각형_16" fill="#4284ed" d="M0 0H46.494V45.115H0z" transform="translate(-12.472 -12.222)"/>
+        </g>
+    </g>
+    <g id="그룹_33" transform="translate(2.388 26.18)">
+        <g id="그룹_32" clip-path="url(#clip-path-2)">
+            <path id="사각형_17" fill="#38a557" d="M0 0H59.862V42.265H0z" transform="translate(-12.472 -12.222)"/>
+        </g>
+    </g>
+    <g id="그룹_35" transform="translate(0 12.12)">
+        <g id="그룹_34" clip-path="url(#clip-path-3)">
+            <path id="사각형_18" fill="#f6b92b" d="M0 0H34.831V44.205H0z" transform="translate(-12.471 -12.222)"/>
+        </g>
+    </g>
+    <g id="그룹_37" transform="translate(2.388)">
+        <g id="그룹_36" clip-path="url(#clip-path-4)">
+            <path id="사각형_19" fill="#e4443c" d="M0 0H60.025V42.264H0z" transform="translate(-12.472 -12.222)"/>
+        </g>
+    </g>
+</svg>

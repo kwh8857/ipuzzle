@@ -1,0 +1,79 @@
+#root .part9 {
+  height: 1059px;
+}
+
+#root .part9 .top {
+  height: 264px;
+  background-color: #60e7a3;
+  font-family: "KoPub_Bold";
+}
+
+#root .part9 .top .wrapper {
+  height: 264px;
+  width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+#root .part9 .top .wrapper .left .title {
+  font-size: 30px;
+}
+
+#root .part9 .top .wrapper .left .sub {
+  font-size: 18px;
+  margin-top: 8px;
+  font-family: "KoPub_Medium";
+}
+
+#root .part9 .top .wrapper .right {
+  position: absolute;
+  right: 0;
+  width: 344px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#root .part9 .top .wrapper .right .arrow {
+  width: 91.6px;
+  height: 21.1px;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  margin-left: 31px;
+}
+
+#root .part9 .bottom {
+  height: 795px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root .part9 .bottom .main {
+  width: 1281px;
+  height: 637px;
+}
+/*# sourceMappingURL=index.css.map */

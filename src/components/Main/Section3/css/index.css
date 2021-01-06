@@ -36,4 +36,35 @@
   width: 883px;
   height: 100%;
 }
+
+@media screen and (max-width: 760px) {
+  #root .section3 {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #root .section3 .right {
+    height: 251px;
+    padding: 0;
+    padding-top: 54.5px;
+  }
+  #root .section3 .right img {
+    width: 157.2px;
+    height: 38.9px;
+  }
+  #root .section3 .right .title {
+    font-size: 25px;
+    margin-top: 12.7px;
+  }
+  #root .section3 .mainimg {
+    position: unset;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=index.css.map */

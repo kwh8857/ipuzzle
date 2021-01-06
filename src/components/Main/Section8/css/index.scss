@@ -21,3 +21,22 @@
     }
   }
 }
+
+@media screen and (max-width: 760px) {
+  #root {
+    .section8 {
+      height: 537px;
+
+      .wrapper {
+        height: 537px;
+        width: 100%;
+
+        .top {
+          font-size: 25px;
+          margin-bottom: 42px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

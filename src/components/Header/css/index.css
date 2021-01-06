@@ -1,10 +1,12 @@
 #root .header {
   width: 100%;
-  position: -webkit-sticky;
-  position: sticky;
-  height: 70px;
+  position: fixed;
   top: 0;
-  background-color: #60e7a3;
+  z-index: 20;
+}
+
+#root .header .text_wrapper {
+  height: 70px;
   padding-left: 127.6px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -16,13 +18,13 @@
           align-items: center;
 }
 
-#root .header img {
+#root .header .text_wrapper img {
   cursor: pointer;
   width: 148.6px;
   height: 36.7px;
 }
 
-#root .header .menu_wrapper {
+#root .header .text_wrapper .menu_wrapper {
   position: absolute;
   right: 133px;
   display: -ms-grid;
@@ -33,10 +35,57 @@
           column-gap: 66px;
 }
 
-#root .header .menu_wrapper .menu {
+#root .header .text_wrapper .menu_wrapper .menu {
+  -webkit-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
   cursor: pointer;
   font-size: 20px;
-  color: white;
-  font-family: "KoPub_Bold", sans-serif;
+}
+
+@media screen and (max-width: 760px) {
+  #root .header {
+    height: 60px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  #root .header .text_wrapper {
+    padding: 0 20px 0 20px;
+    z-index: 30;
+  }
+  #root .header .text_wrapper img {
+    width: 102px;
+    height: 25.2px;
+  }
+  #root .header .text_wrapper .menu_wrapper {
+    right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  #root .header .text_wrapper .menu_wrapper .menu {
+    width: 28px;
+    height: 28px;
+  }
+  #root .header .wrapper {
+    width: 100%;
+    position: absolute;
+    bottom: -162px;
+    background-color: white;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: -1;
+  }
+  #root .header .wrapper .menubox {
+    height: 54px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 21px;
+    font-size: 17px;
+    font-family: 'KoPub_Bold';
+  }
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,36 @@
+#root {
+  .part8 {
+    height: 2190px;
+
+    .section {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .wrapper {
+        width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+
+        .title {
+          font-size: 60px;
+          font-family: 'tvn_Medium';
+          margin-bottom: 34px;
+        }
+
+        .sub {
+          font-size: 40px;
+          white-space: pre-line;
+          line-height: 1.25;
+
+          span {
+            font-family: "KoPub_Bold";
+          }
+        }
+      }
+    }
+  }
+}

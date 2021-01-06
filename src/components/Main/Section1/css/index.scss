@@ -49,3 +49,45 @@
     }
   }
 }
+
+@media screen and (max-width: 760px) {
+  #root {
+    .section1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 662px;
+
+      .wrapper {
+        width: 100%;
+        padding-top: 31px;
+        text-align: center;
+
+        .left {
+          .title {
+            font-size: 48px;
+
+            .line {
+              left: 29%;
+              width: 190.2px;
+              height: 24.2px;
+
+            }
+          }
+
+          .sub {
+            font-size: 13px;
+            line-height: 1.54;
+          }
+        }
+      }
+
+      img {
+        width: 285.9px;
+        height: 528.8px;
+        right: unset;
+        bottom: -130px;
+      }
+    }
+  }
+}

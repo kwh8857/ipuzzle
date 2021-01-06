@@ -1,0 +1,50 @@
+#root .part1 {
+  height: 863px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#root .part1 .wrapper {
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: left;
+}
+
+#root .part1 .wrapper .title {
+  font-size: 80px;
+  line-height: 0.94;
+  font-family: 'tvn_Medium';
+  position: relative;
+  z-index: 5;
+}
+
+#root .part1 .wrapper .title img {
+  position: absolute;
+  bottom: 78px;
+  z-index: -1;
+  width: 319px;
+  height: 56.3px;
+}
+
+#root .part1 .wrapper .title .sub {
+  font-size: 18px;
+  line-height: 1.56;
+  font-family: "KoPub_Medium";
+  margin-top: 29px;
+}
+/*# sourceMappingURL=index.css.map */

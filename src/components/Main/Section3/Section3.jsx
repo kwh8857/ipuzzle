@@ -1,6 +1,8 @@
 import React from "react";
 import "./css/index.css";
+import { useSelector } from "react-redux";
 function Section3() {
+  const Agent = useSelector((state) => state.layouts.userState);
   return (
     <div className="section3">
       <div className="right">
@@ -16,8 +18,12 @@ function Section3() {
       </div>
       <img
         className="mainimg"
-        src="/assets/main/s3_pc.png"
-        srcSet="/assets/main/s3_pc@2x.png 2x , /assets/main/s3_pc@3x.png 3x"
+        src={`/assets/main/s3_${Agent === "PC" ? "pc" : "mb"}.png`}
+        srcSet={`/assets/main/s3_${
+          Agent === "PC" ? "pc" : "mb"
+        }@2x.png 2x , /assets/main/s3_${
+          Agent === "PC" ? "pc" : "mb"
+        }@3x.png 3x`}
         alt="이미지"
       />
     </div>

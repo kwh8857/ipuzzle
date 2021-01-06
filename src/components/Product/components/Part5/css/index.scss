@@ -1,0 +1,41 @@
+#root {
+  .part5 {
+    height: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'KoPub_Medium';
+    text-align: center;
+
+    span {
+      font-family: 'KoPub_Bold';
+    }
+
+    .title {
+      position: relative;
+      font-size: 40px;
+
+      .line {
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        width: 280.1px;
+        height: 35.5px;
+        z-index: -1;
+      }
+    }
+
+    .sub {
+      margin-top: 31px;
+      font-size: 18px;
+      line-height: 1.67;
+    }
+
+    .main_img {
+      width: 1280px;
+      height: 636px;
+      margin-top: 77px;
+    }
+  }
+}

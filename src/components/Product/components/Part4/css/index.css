@@ -1,0 +1,111 @@
+#root .part4 {
+  height: 1392px;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#root .part4 .title {
+  font-size: 40px;
+  font-family: "KoPub_Medium";
+  position: relative;
+  z-index: 5;
+  margin-bottom: 31px;
+}
+
+#root .part4 .title .line {
+  position: absolute;
+  width: 280.1px;
+  height: 35.5px;
+  bottom: -18px;
+  left: 0;
+  z-index: -1;
+}
+
+#root .part4 .title span {
+  font-family: "KoPub_Bold";
+}
+
+#root .part4 .sub {
+  font-size: 18px;
+  line-height: 1.67;
+  font-family: "KoPub_Medium";
+}
+
+#root .part4 .wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  margin-top: 44px;
+  row-gap: 21px;
+}
+
+#root .part4 .wrapper .number {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "KoPub_Bold";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .part4 .wrapper .number .circle {
+  margin-right: 16px;
+  width: 30px;
+  height: 30px;
+  background-color: #383838;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+  color: white;
+}
+
+#root .part4 .wrapper .number .content {
+  font-size: 20px;
+  width: 384px;
+}
+
+#root .part4 .img_wrapper {
+  width: 891px;
+  height: 435px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 54.5px;
+}
+
+#root .part4 .img_wrapper .greybox {
+  width: 705px;
+  height: 398px;
+  background-color: #dbdbdb;
+}
+/*# sourceMappingURL=index.css.map */

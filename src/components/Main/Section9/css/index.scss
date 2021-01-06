@@ -4,5 +4,59 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    .wrapper {
+      height: 100%;
+      width: 1280px;
+      padding-top: 267px;
+      box-sizing: border-box;
+      margin: 0 auto;
+      position: relative;
+
+      .content {
+        position: absolute;
+        right: 0;
+        font-size: 80px;
+        line-height: 1;
+        font-family: 'tvn_Medium';
+        text-align: right;
+
+        .sub {
+          font-size: 18px;
+          margin-top: 28px;
+          line-height: 1.64;
+          font-family: 'KoPub_Medium';
+        }
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #root {
+    .section9 {
+      height: 453px;
+
+      .wrapper {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .content {
+          position: unset;
+          font-size: 50px;
+          text-align: center;
+        }
+
+        .sub {
+          font-size: 12px;
+          margin-top: 15px;
+
+        }
+      }
+    }
   }
 }

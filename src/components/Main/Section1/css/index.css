@@ -46,4 +46,43 @@
   right: 0;
   bottom: -200px;
 }
+
+@media screen and (max-width: 760px) {
+  #root .section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 662px;
+  }
+  #root .section1 .wrapper {
+    width: 100%;
+    padding-top: 31px;
+    text-align: center;
+  }
+  #root .section1 .wrapper .left .title {
+    font-size: 48px;
+  }
+  #root .section1 .wrapper .left .title .line {
+    left: 29%;
+    width: 190.2px;
+    height: 24.2px;
+  }
+  #root .section1 .wrapper .left .sub {
+    font-size: 13px;
+    line-height: 1.54;
+  }
+  #root .section1 img {
+    width: 285.9px;
+    height: 528.8px;
+    right: unset;
+    bottom: -130px;
+  }
+}
 /*# sourceMappingURL=index.css.map */

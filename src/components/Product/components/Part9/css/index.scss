@@ -1,0 +1,67 @@
+#root {
+  .part9 {
+    height: 1059px;
+
+
+    .top {
+      height: 264px;
+      background-color: #60e7a3;
+      font-family: "KoPub_Bold";
+
+      .wrapper {
+        height: 264px;
+        width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        .left {
+          .title {
+            font-size: 30px;
+          }
+
+          .sub {
+            font-size: 18px;
+            margin-top: 8px;
+            font-family: "KoPub_Medium";
+          }
+        }
+
+        .right {
+          position: absolute;
+          right: 0;
+          width: 344px;
+          height: 80px;
+          background-color: white;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 25px;
+          cursor: pointer;
+
+          .arrow {
+            width: 91.6px;
+            height: 21.1px;
+            transform: translateY(-5px);
+            margin-left: 31px;
+
+          }
+        }
+      }
+    }
+
+    .bottom {
+      height: 795px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .main {
+        width: 1281px;
+        height: 637px;
+      }
+    }
+  }
+}
