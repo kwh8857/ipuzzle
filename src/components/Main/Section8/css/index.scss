@@ -1,0 +1,23 @@
+#root {
+  .section8 {
+    height: 1074px;
+    background-color: #383838;
+
+    .wrapper {
+      height: 1074px;
+      width: 1134px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .top {
+        font-size: 35px;
+        margin-bottom: 34px;
+        color: white;
+        font-family: "KoPub_Bold";
+      }
+    }
+  }
+}

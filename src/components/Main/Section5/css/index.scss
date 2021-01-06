@@ -1,0 +1,40 @@
+$main : #60e7a3;
+
+#root {
+  .section5 {
+
+    .top {
+      background-color: $main;
+
+      .wrapper {
+        position: relative;
+        margin: 0 auto;
+        width: 1280px;
+        height: 777px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        padding-top: 166px;
+        box-sizing: border-box;
+
+        .title {
+          font-family: 'tvn_medium';
+          font-size: 45px;
+        }
+
+        .logo {
+          margin-top: 15px;
+          width: 311.2px;
+          height: 76.9px;
+        }
+
+        .main_img {
+          position: absolute;
+          bottom: 0;
+          width: 817px;
+          height: 415px;
+        }
+      }
+    }
+  }
+}

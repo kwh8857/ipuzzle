@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./css/index.css";
 import Header from "./Header/Header";
 import Main from "./Main/Main";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 function App() {
   const dispatch = useDispatch();
   const firstAgent = useCallback(() => {

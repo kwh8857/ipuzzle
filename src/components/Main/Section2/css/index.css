@@ -30,7 +30,16 @@
 }
 
 #root .section2 .wrapper .title span {
+  position: relative;
   font-family: 'KoPub_Bold';
+}
+
+#root .section2 .wrapper .title span .line {
+  position: absolute;
+  bottom: -10px;
+  z-index: -1;
+  width: 377.6px;
+  height: 51.8px;
 }
 
 #root .section2 .wrapper img {

@@ -1,0 +1,31 @@
+#root .section8 {
+  height: 1074px;
+  background-color: #383838;
+}
+
+#root .section8 .wrapper {
+  height: 1074px;
+  width: 1134px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .section8 .wrapper .top {
+  font-size: 35px;
+  margin-bottom: 34px;
+  color: white;
+  font-family: "KoPub_Bold";
+}
+/*# sourceMappingURL=index.css.map */

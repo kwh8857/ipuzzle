@@ -20,7 +20,16 @@
         font-size: 35px;
 
         span {
+          position: relative;
           font-family: 'KoPub_Bold';
+
+          .line {
+            position: absolute;
+            bottom: -10px;
+            z-index: -1;
+            width: 377.6px;
+            height: 51.8px;
+          }
         }
       }
 

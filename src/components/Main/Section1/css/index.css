@@ -19,6 +19,17 @@
 #root .section1 .wrapper .left .title {
   font-size: 90px;
   font-family: 'tvn_Medium';
+  position: relative;
+  z-index: 5;
+}
+
+#root .section1 .wrapper .left .title .line {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  z-index: -1;
+  width: 488px;
+  height: 54.1px;
 }
 
 #root .section1 .wrapper .left .sub {

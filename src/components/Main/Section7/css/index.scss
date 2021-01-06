@@ -1,0 +1,50 @@
+#root {
+  .section7 {
+    min-height: 264px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    .wrapper {
+      width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      min-height: 264px;
+      position: relative;
+
+      .left {
+
+        font-size: 30px;
+        font-family: 'KoPub_Bold';
+
+        span {
+          font-size: 18px;
+          font-family: 'KoPub_Medium';
+        }
+      }
+
+      .right {
+        position: absolute;
+        right: 0;
+        border: solid 1px white;
+        border-radius: 50px;
+        width: 344px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-family: 'KoPub_Bold';
+        cursor: pointer;
+
+        .arrow {
+          margin-left: 33px;
+          width: 91.6px;
+          height: 22px;
+          transform: translateY(-3px);
+        }
+      }
+    }
+  }
+}

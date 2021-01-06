@@ -9,6 +9,7 @@ function Section1() {
       <div className="wrapper">
         <div className="left">
           <div className="title">
+            <img className="line" src="/assets/main/s1_line.svg" alt="밑줄" />
             가족과 추억을 연결하는 <br /> 행복 디바이스
           </div>
           <div className="sub">
