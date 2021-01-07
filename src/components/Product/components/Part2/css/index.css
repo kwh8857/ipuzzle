@@ -47,7 +47,7 @@
   height: 568px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   #root .part2 {
     height: 680px;
   }

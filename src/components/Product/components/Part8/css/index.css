@@ -9,7 +9,7 @@
 }
 
 #root .part8 .section .wrapper {
-  width: 1280px;
+  width: 1080px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,7 +51,7 @@
   z-index: -1;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   #root .part8 {
     height: 1021px;
   }

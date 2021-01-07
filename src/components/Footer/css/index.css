@@ -4,7 +4,7 @@
 }
 
 #root .footer .wrapper {
-  width: 1280px;
+  width: 1080px;
   margin: 0 auto;
   padding-top: 149.6px;
   -webkit-box-sizing: border-box;
@@ -17,7 +17,7 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   #root .footer {
     height: 277px;
   }

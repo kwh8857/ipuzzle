@@ -9,7 +9,7 @@ $main : #60e7a3;
       .wrapper {
         position: relative;
         margin: 0 auto;
-        width: 1280px;
+        width: 1080px;
         height: 777px;
         flex-direction: column;
         display: flex;
@@ -39,7 +39,7 @@ $main : #60e7a3;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   #root {
     .section5 {
       .top {

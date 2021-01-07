@@ -47,7 +47,7 @@
   background-image: -webkit-image-set(url("../backgorundImage/s3_pc@2x.png") 2x, url("../backgorundImage/s3_pc@3x.png") 3x);
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   #root .section3 {
     height: auto;
     -webkit-box-orient: vertical;

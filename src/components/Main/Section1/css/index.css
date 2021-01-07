@@ -9,7 +9,7 @@
 
 #root .section1 .wrapper {
   margin: 0 auto;
-  width: 1280px;
+  width: 1080px;
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -47,7 +47,7 @@
   bottom: -200px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   #root .section1 {
     display: -webkit-box;
     display: -ms-flexbox;

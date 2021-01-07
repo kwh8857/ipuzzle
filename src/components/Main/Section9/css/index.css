@@ -1,5 +1,5 @@
 #root .section9 {
-  height: 1280px;
+  height: 1080px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -7,7 +7,7 @@
 
 #root .section9 .wrapper {
   height: 100%;
-  width: 1280px;
+  width: 1080px;
   padding-top: 267px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -31,7 +31,7 @@
   font-family: 'KoPub_Medium';
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   #root .section9 {
     height: 453px;
   }

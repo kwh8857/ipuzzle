@@ -6,7 +6,7 @@
 }
 
 #root .section7 .wrapper {
-  width: 1280px;
+  width: 1080px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,7 +58,7 @@
           transform: translateY(-3px);
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   #root .section7 {
     height: 323px;
   }

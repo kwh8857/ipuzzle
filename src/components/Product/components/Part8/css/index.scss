@@ -8,7 +8,7 @@
       background-size: cover;
 
       .wrapper {
-        width: 1280px;
+        width: 1080px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -46,7 +46,7 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   #root {
     .part8 {
       height: 1021px;

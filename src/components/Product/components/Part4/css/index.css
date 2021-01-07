@@ -110,7 +110,7 @@
   background-color: #dbdbdb;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1080px) {
   #root .part4 {
     height: 736px;
   }
