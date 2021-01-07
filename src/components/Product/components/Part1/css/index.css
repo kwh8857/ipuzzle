@@ -47,4 +47,36 @@
   font-family: "KoPub_Medium";
   margin-top: 29px;
 }
+
+@media screen and (max-width: 760px) {
+  #root .part1 {
+    height: 707px;
+  }
+  #root .part1 .wrapper {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+    padding-top: 87px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #root .part1 .wrapper .title {
+    text-align: center;
+    font-size: 46px;
+  }
+  #root .part1 .wrapper .title img {
+    width: 186.3px;
+    height: 32.9px;
+    left: 24%;
+    bottom: 60px;
+  }
+  #root .part1 .wrapper .title .sub {
+    font-size: 13px;
+    line-height: 1.54;
+  }
+}
 /*# sourceMappingURL=index.css.map */

@@ -46,4 +46,30 @@
   width: 1072px;
   height: 568px;
 }
+
+@media screen and (max-width: 760px) {
+  #root .part2 {
+    height: 680px;
+  }
+  #root .part2 .title {
+    font-size: 29px;
+  }
+  #root .part2 .title .line {
+    bottom: unset;
+    top: 8px;
+    left: 1px;
+    width: 260px;
+    height: 34.2px;
+  }
+  #root .part2 .sub {
+    font-size: 13px;
+    line-height: 1.54;
+    margin-top: 23px;
+  }
+  #root .part2 .main_img {
+    margin-top: 40px;
+    width: 320px;
+    height: 186px;
+  }
+}
 /*# sourceMappingURL=index.css.map */

@@ -9,8 +9,10 @@ import Part7 from "./components/Part7/Part7";
 import Part8 from "./components/Part8/Part8";
 import Part9 from "./components/Part9/Part9";
 import Footer from "../Footer/Footer";
-
+import "./css/index.css";
+import { useSelector } from "react-redux";
 function Product() {
+  const Agent = useSelector((state) => state.layouts.userState);
   return (
     <div className="product">
       <Part1 />
@@ -19,7 +21,7 @@ function Product() {
       <Part4 />
       <Part5 />
       <Part6 />
-      <Part7 />
+      {Agent === "PC" ? <Part7 /> : undefined}
       <Part8 />
       <Part9 />
       <Footer />

@@ -1,10 +1,17 @@
 import React from "react";
 import "./css/index.css";
+import { useSelector } from "react-redux";
 function Part1() {
+  const Agent = useSelector((state) => state.layouts.userState);
+
   return (
     <div
       className="part1"
-      style={{ backgroundImage: `url(/assets/product/p1_back.png)` }}
+      style={{
+        backgroundImage: `url(/assets/product/p1_back${
+          Agent === "PC" ? "" : "_mb"
+        }.png)`,
+      }}
     >
       <div className="wrapper">
         <div className="title">

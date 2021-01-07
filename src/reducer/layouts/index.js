@@ -48,16 +48,20 @@ const initialState = {
   product: {
     part6: [{
       img: 'p6_1',
-      title: "디자인출원"
+      title: "디자인출원",
+
     }, {
       img: 'p6_2',
-      title: "디자인출원"
+      title: "디자인출원",
+
     }, {
       img: 'p6_3',
-      title: "임상테스트 결과보고서"
+      title: "임상테스트 결과보고서",
+      mb: '임상테스트'
     }, {
       img: 'p6_4',
-      title: "임상테스트 결과보고서"
+      title: "임상테스트 결과보고서",
+      mb: '임상테스트'
     }, {
       img: 'p6_5',
       title: "임상심의완료"

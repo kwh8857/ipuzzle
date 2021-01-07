@@ -41,3 +41,36 @@
     }
   }
 }
+
+@media screen and (max-width: 760px) {
+  #root {
+    .part1 {
+      height: 707px;
+
+      .wrapper {
+        width: 100%;
+        align-items: center;
+        justify-content: unset;
+        padding-top: 87px;
+        box-sizing: border-box;
+
+        .title {
+          text-align: center;
+          font-size: 46px;
+
+          img {
+            width: 186.3px;
+            height: 32.9px;
+            left: 24%;
+            bottom: 60px;
+          }
+
+          .sub {
+            font-size: 13px;
+            line-height: 1.54;
+          }
+        }
+      }
+    }
+  }
+}

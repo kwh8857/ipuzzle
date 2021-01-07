@@ -24,7 +24,7 @@
 
 #root .section10 .wrapper .sub {
   font-size: 18px;
-  font-family: 'KoPub_Medium';
+  font-family: "KoPub_Medium";
   margin-top: 17px;
 }
 
@@ -61,6 +61,27 @@
 @media screen and (max-width: 760px) {
   #root .section10 {
     height: 323px;
+  }
+  #root .section10 .wrapper .title {
+    font-size: 25px;
+    line-height: 1.28;
+  }
+  #root .section10 .wrapper .sub {
+    font-size: 13px;
+    line-height: 1.54;
+    margin-top: 10.7px;
+  }
+  #root .section10 .wrapper .btn {
+    width: 204px;
+    height: 47px;
+    font-size: 14px;
+  }
+  #root .section10 .wrapper .btn img {
+    width: 54.2px;
+    height: 12.5px;
+    margin-left: 6.4px;
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
   }
 }
 /*# sourceMappingURL=index.css.map */

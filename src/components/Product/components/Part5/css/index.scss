@@ -39,3 +39,43 @@
     }
   }
 }
+
+@media screen and (max-width: 760px) {
+  #root {
+    .part5 {
+      height: 709px;
+      position: relative;
+      justify-content: unset;
+      padding-top: 127px;
+      box-sizing: border-box;
+
+      .title {
+        font-size: 29px;
+
+        .line {
+          width: 154px;
+          height: 20.3px;
+          bottom: unset;
+          top: 20px;
+        }
+      }
+
+      .sub {
+        margin-top: 23px;
+        font-size: 13px;
+        line-height: 1.54;
+      }
+
+      .main_img {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 358px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 0;
+      }
+    }
+  }
+}

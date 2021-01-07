@@ -18,3 +18,30 @@
     }
   }
 }
+
+@media screen and (max-width: 760px) {
+  #root {
+    .footer {
+      height: 277px;
+
+      .wrapper {
+        width: 100%;
+        padding-top: 97.7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 148.6px;
+          height: 36.7px;
+          margin-bottom: 15.2px;
+        }
+
+        .content {
+          line-height: 1.77;
+        }
+      }
+    }
+  }
+}

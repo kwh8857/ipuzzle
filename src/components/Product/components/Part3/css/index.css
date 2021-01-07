@@ -20,10 +20,21 @@
 #root .part3 .title {
   font-size: 40px;
   font-family: 'KoPub_Medium';
+  position: relative;
+  z-index: 1;
 }
 
 #root .part3 .title span {
   font-family: 'KoPub_Bold';
+}
+
+#root .part3 .title .line {
+  position: absolute;
+  width: 308.5px;
+  height: 39.1px;
+  bottom: -20px;
+  z-index: -1;
+  left: 0;
 }
 
 #root .part3 .sub {
@@ -37,5 +48,37 @@
   margin-top: 45px;
   width: 1280px;
   height: 466px;
+}
+
+@media screen and (max-width: 760px) {
+  #root .part3 {
+    height: 1219px;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+    padding-top: 128px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #root .part3 .title {
+    font-size: 29px;
+    line-height: 1.48;
+  }
+  #root .part3 .title .line {
+    left: 4px;
+    bottom: 40px;
+    width: 180.6px;
+    height: 23.8px;
+  }
+  #root .part3 .sub {
+    font-size: 13px;
+    line-height: 1.54;
+    margin-top: 23px;
+  }
+  #root .part3 .main_img {
+    margin-top: 34.7px;
+    width: 321px;
+    height: 715.3px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

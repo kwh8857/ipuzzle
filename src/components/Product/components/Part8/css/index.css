@@ -34,9 +34,47 @@
   font-size: 40px;
   white-space: pre-line;
   line-height: 1.25;
+  position: relative;
+  z-index: 1;
 }
 
 #root .part8 .section .wrapper .sub span {
   font-family: "KoPub_Bold";
+}
+
+#root .part8 .section .wrapper .sub .line {
+  width: 325.8px;
+  height: 54.1px;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 760px) {
+  #root .part8 {
+    height: 1021px;
+  }
+  #root .part8 .section .wrapper {
+    width: 100%;
+    padding-left: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #root .part8 .section .wrapper .title {
+    font-size: 30px;
+    margin-bottom: 18px;
+  }
+  #root .part8 .section .wrapper .sub {
+    font-size: 20px;
+  }
+  #root .part8 .section .wrapper .sub .line {
+    width: 167.8px;
+    height: 27.9px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    z-index: -1;
+  }
 }
 /*# sourceMappingURL=index.css.map */

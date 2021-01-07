@@ -30,6 +30,7 @@
       font-size: 18px;
       line-height: 1.67;
       font-family: 'KoPub_Medium';
+      white-space: pre-line;
     }
 
     .wrapper {
@@ -44,6 +45,51 @@
           font-size: 13px;
           color: #60e7a3;
           margin-top: 12.6px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #root {
+    .part6 {
+      height: 660px;
+      justify-content: unset;
+      padding-top: 107px;
+      box-sizing: border-box;
+
+      .title {
+        font-size: 29px;
+        line-height: 1.48;
+        margin-bottom: 23px;
+
+        .line {
+          width: 182px;
+          height: 19.4px;
+          bottom: -8px;
+          right: unset;
+          left: 3px;
+        }
+      }
+
+      .sub {
+        font-size: 13px;
+        line-height: 1.54;
+      }
+
+      .wrapper {
+        margin-top: 26.1px;
+        display: grid;
+        grid-template-columns: repeat(4, 71.7px);
+        column-gap: 10px;
+        row-gap: 10px;
+
+        .box {
+          .box_title {
+            font-size: 10px;
+            margin-top: 5px;
+          }
         }
       }
     }

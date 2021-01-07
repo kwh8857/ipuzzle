@@ -39,3 +39,36 @@
     }
   }
 }
+
+@media screen and (max-width: 760px) {
+  #root {
+    .part2 {
+      height: 680px;
+
+      .title {
+        font-size: 29px;
+
+        .line {
+          bottom: unset;
+          top: 8px;
+          left: 1px;
+          width: 260px;
+          height: 34.2px;
+        }
+      }
+
+      .sub {
+        font-size: 13px;
+        line-height: 1.54;
+        margin-top: 23px;
+      }
+
+      .main_img {
+        margin-top: 40px;
+        width: 320px;
+        height: 186px;
+      }
+    }
+
+  }
+}

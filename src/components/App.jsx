@@ -3,29 +3,35 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./css/index.css";
 import Header from "./Header/Header";
 import Main from "./Main/Main";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import Product from "./Product/Product";
 import Question from "./Question/Question";
 function App() {
   const dispatch = useDispatch();
+  const Agent = useSelector((state) => state.layouts.userState);
   const firstAgent = useCallback(() => {
-    if (window.innerWidth > 760) {
+    if (window.innerWidth > 760 && Agent !== "PC") {
       dispatch({
         type: "LAYOUTS/USER/CHANGE",
         payload: "PC",
       });
-    } else {
+    } else if (window.innerWidth < 760 && Agent !== "MB") {
+      console.log("모바일");
       dispatch({
         type: "LAYOUTS/USER/CHANGE",
         payload: "MB",
       });
     }
-  }, [dispatch]);
+  }, [dispatch, Agent]);
 
   useEffect(() => {
+    console.log("몇번도는가");
     firstAgent();
-
-    return () => {};
+    window.addEventListener("resize", firstAgent);
+    return () => {
+      console.log("삭제");
+      window.removeEventListener("resize", firstAgent);
+    };
   }, [firstAgent]);
   return (
     <Router>

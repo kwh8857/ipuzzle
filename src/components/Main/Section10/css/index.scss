@@ -16,7 +16,7 @@
 
       .sub {
         font-size: 18px;
-        font-family: 'KoPub_Medium';
+        font-family: "KoPub_Medium";
         margin-top: 17px;
       }
 
@@ -50,6 +50,28 @@
   #root {
     .section10 {
       height: 323px;
+      .wrapper {
+        .title {
+          font-size: 25px;
+          line-height: 1.28;
+        }
+        .sub {
+          font-size: 13px;
+          line-height: 1.54;
+          margin-top: 10.7px;
+        }
+        .btn {
+          width: 204px;
+          height: 47px;
+          font-size: 14px;
+          img {
+            width: 54.2px;
+            height: 12.5px;
+            margin-left: 6.4px;
+            transform: translateY(-3px);
+          }
+        }
+      }
     }
   }
 }

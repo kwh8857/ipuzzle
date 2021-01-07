@@ -1,8 +1,6 @@
 import React from "react";
 import "./css/index.css";
-import { useSelector } from "react-redux";
 function Section5() {
-  const Agent = useSelector((state) => state.layouts.userState);
   return (
     <div className="section5">
       <div className="top">

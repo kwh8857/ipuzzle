@@ -1,11 +1,19 @@
 import React from "react";
 import "./css/index.css";
+import { useSelector } from "react-redux";
 function Part2() {
+  const Agent = useSelector((state) => state.layouts.userState);
   return (
     <div className="part2">
       <div className="title">
-        <span>언제 어디서나 간편하게</span> 휴대할 수 있는 사이즈
-        <img className="line" src="/assets/product/p2_line.svg" alt="밑줄" />
+        <span>언제 어디서나 간편하게{Agent === "PC" ? undefined : <br />}</span>{" "}
+        {""}
+        휴대할 수 있는 사이즈
+        <img
+          className="line"
+          src={`/assets/product/p2_line${Agent === "MB" ? "_mb" : ""}.svg`}
+          alt="밑줄"
+        />
       </div>
       <div className="sub">
         두손에 들어오는 휴대하기 좋은 사이즈로 <br /> 집에서도, 외출할 때도 언제

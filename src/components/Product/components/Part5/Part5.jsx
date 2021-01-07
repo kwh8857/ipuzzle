@@ -1,10 +1,13 @@
 import React from "react";
 import "./css/index.css";
+import { useSelector } from "react-redux";
 function Part5() {
+  const Agent = useSelector((state) => state.layouts.userState);
   return (
     <div className="part5">
       <div className="title">
-        <span>기술과 가족을</span> 연결합니다
+        <span>기술과 가족을 {Agent === "PC" ? undefined : <br />}</span>{" "}
+        연결합니다
         <img src="/assets/product/p4_line.svg" alt="밑줄" className="line" />
       </div>
       <div className="sub">
@@ -13,11 +16,13 @@ function Part5() {
         <br />
         <span> 아이퍼즐은 가족과 가족을 연결하는 디바이스입니다</span>
       </div>
-      <img
+      <div
         className="main_img"
-        src="/assets/product/p5_img.png"
-        srcSet="/assets/product/p5_img@2x.png 2x , /assets/product/p5_img@3x.png 3x"
-        alt="이미지"
+        style={{
+          backgroundImage: `url(/assets/product/p5_img${
+            Agent === "PC" ? "" : "_mb"
+          }.png)`,
+        }}
       />
     </div>
   );

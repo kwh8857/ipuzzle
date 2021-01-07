@@ -16,4 +16,35 @@
   color: white;
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+@media screen and (max-width: 760px) {
+  #root .footer {
+    height: 277px;
+  }
+  #root .footer .wrapper {
+    width: 100%;
+    padding-top: 97.7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #root .footer .wrapper img {
+    width: 148.6px;
+    height: 36.7px;
+    margin-bottom: 15.2px;
+  }
+  #root .footer .wrapper .content {
+    line-height: 1.77;
+  }
+}
 /*# sourceMappingURL=index.css.map */

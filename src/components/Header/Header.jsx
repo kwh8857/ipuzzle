@@ -25,9 +25,11 @@ function Header() {
             ? location.pathname === "/"
               ? "#60e7a3"
               : "white"
-            : isOpen
-            ? "white "
-            : "#60e7a3",
+            : location.pathname === "/"
+            ? isOpen
+              ? "white "
+              : "#60e7a3"
+            : "white",
       }}
     >
       <div className="text_wrapper">
@@ -37,9 +39,11 @@ function Header() {
               ? location.pathname === "/"
                 ? ""
                 : "_color"
-              : isOpen
-              ? "_color"
-              : ""
+              : location.pathname === "/"
+              ? isOpen
+                ? "_color"
+                : ""
+              : "_color"
           }.svg`}
           alt="로고"
         />
@@ -53,7 +57,9 @@ function Header() {
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
-              src={`/assets/header/menu_${isOpen ? "grey" : "white"}.svg`}
+              src={`/assets/header/menu_${
+                location.pathname === "/" ? (isOpen ? "grey" : "white") : "grey"
+              }.svg`}
               alt="메뉴"
               className="menu"
             />

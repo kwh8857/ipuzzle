@@ -72,8 +72,84 @@
           justify-content: center;
 }
 
-#root .part9 .bottom .main {
+#root .part9 .bottom .p9_img {
   width: 1281px;
   height: 637px;
+}
+
+@media screen and (max-width: 760px) {
+  #root .part9 {
+    height: 1312px;
+  }
+  #root .part9 .top {
+    height: 323px;
+  }
+  #root .part9 .top .wrapper {
+    height: 323px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #root .part9 .top .wrapper .left {
+    text-align: center;
+  }
+  #root .part9 .top .wrapper .left .title {
+    font-size: 25px;
+  }
+  #root .part9 .top .wrapper .left .sub {
+    margin-top: 10.7px;
+    font-size: 13px;
+    line-height: 1.54;
+  }
+  #root .part9 .top .wrapper .right {
+    margin-top: 19.3px;
+    position: unset;
+    width: 204px;
+    height: 47px;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  #root .part9 .top .wrapper .right .arrow {
+    width: 54.2px;
+    height: 12.5px;
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+    margin-left: 20.4px;
+  }
+  #root .part9 .bottom {
+    height: 989px;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    padding-top: 52px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #root .part9 .bottom .p9_img {
+    margin: 0 auto;
+    width: 320px;
+    height: 875px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

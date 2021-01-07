@@ -1,15 +1,22 @@
 import React from "react";
 import "./css/index.css";
+import { useSelector } from "react-redux";
 function Part4() {
+  const Agent = useSelector((state) => state.layouts.userState);
   return (
     <div className="part4">
       <div className="title">
-        <span>추억과 기억을</span> 연결합니다
+        <span>추억과 기억을 {Agent === "PC" ? undefined : <br />}</span>{" "}
+        연결합니다
         <img src="/assets/product/p4_line.svg" alt="밑줄" className="line" />
       </div>
       <div className="sub">
-        퍼즐을 완성하고 그 사진에 담긴 영상을 확인해보세요 <br /> 사진에서 더
-        나아가 영상을 통해 추억과 기억을 담을 수 있습니다.
+        {Agent === "PC"
+          ? `퍼즐을 완성하고 그 사진에 담긴 영상을 확인해보세요
+사진에서 더나아가 영상을 통해 추억과 기억을 담을 수 있습니다.`
+          : `퍼즐을 완성하고 그 사진에 담긴 영상을
+확인해보세요. 사진에서 더 나아가 영상을 통해
+추억과 기억을 담을 수 있습니다.`}
       </div>
       <div className="wrapper">
         <div className="number">

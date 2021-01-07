@@ -40,6 +40,7 @@
 
 #root .part4 .sub {
   font-size: 18px;
+  white-space: pre-line;
   line-height: 1.67;
   font-family: "KoPub_Medium";
 }
@@ -107,5 +108,51 @@
   width: 705px;
   height: 398px;
   background-color: #dbdbdb;
+}
+
+@media screen and (max-width: 760px) {
+  #root .part4 {
+    height: 736px;
+  }
+  #root .part4 .title {
+    font-size: 29px;
+    margin-bottom: 23px;
+    line-height: 1.48;
+  }
+  #root .part4 .title .line {
+    width: 154px;
+    height: 20.3px;
+    bottom: 40px;
+    left: 0;
+  }
+  #root .part4 .sub {
+    font-size: 13px;
+    line-height: 1.54;
+  }
+  #root .part4 .wrapper {
+    margin-top: 34px;
+    row-gap: 12px;
+  }
+  #root .part4 .wrapper .number .circle {
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    border-radius: 25px;
+  }
+  #root .part4 .wrapper .number .content {
+    font-size: 14px;
+    width: 268px;
+    white-space: nowrap;
+  }
+  #root .part4 .img_wrapper {
+    width: 320px;
+    height: 181px;
+    margin-top: 34px;
+  }
+  #root .part4 .img_wrapper .greybox {
+    width: 100%;
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

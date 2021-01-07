@@ -46,4 +46,41 @@
   height: 636px;
   margin-top: 77px;
 }
+
+@media screen and (max-width: 760px) {
+  #root .part5 {
+    height: 709px;
+    position: relative;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+    padding-top: 127px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #root .part5 .title {
+    font-size: 29px;
+  }
+  #root .part5 .title .line {
+    width: 154px;
+    height: 20.3px;
+    bottom: unset;
+    top: 20px;
+  }
+  #root .part5 .sub {
+    margin-top: 23px;
+    font-size: 13px;
+    line-height: 1.54;
+  }
+  #root .part5 .main_img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 358px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+  }
+}
 /*# sourceMappingURL=index.css.map */
