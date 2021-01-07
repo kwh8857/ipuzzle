@@ -56,7 +56,7 @@
   left: 0;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1280px) {
   #root .section2 {
     height: 605px;
   }

@@ -109,7 +109,7 @@
   font-size: 18px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1280px) {
   #root .section4 {
     height: 1456.4px;
   }

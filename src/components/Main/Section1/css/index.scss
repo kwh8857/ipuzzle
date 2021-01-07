@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1280px) {
   #root {
     .section1 {
       display: flex;
@@ -66,9 +66,12 @@
         .left {
           .title {
             font-size: 48px;
+            width: 282px;
+            margin: 0 auto;
+            white-space: nowrap;
 
             .line {
-              left: 29%;
+              left: 20%;
               width: 190.2px;
               height: 24.2px;
 

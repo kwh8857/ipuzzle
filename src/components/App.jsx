@@ -10,12 +10,12 @@ function App() {
   const dispatch = useDispatch();
   const Agent = useSelector((state) => state.layouts.userState);
   const firstAgent = useCallback(() => {
-    if (window.innerWidth > 760 && Agent !== "PC") {
+    if (window.innerWidth > 1279 && Agent !== "PC") {
       dispatch({
         type: "LAYOUTS/USER/CHANGE",
         payload: "PC",
       });
-    } else if (window.innerWidth < 760 && Agent !== "MB") {
+    } else if (window.innerWidth < 1280 && Agent !== "MB") {
       console.log("모바일");
       dispatch({
         type: "LAYOUTS/USER/CHANGE",

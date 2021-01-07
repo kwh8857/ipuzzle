@@ -20,7 +20,7 @@ function Section8() {
                   height: "636px",
                 }
               : {
-                  width: window.innerWidth,
+                  width: "360px",
                   height: "202px",
                 }
           }

@@ -9,7 +9,7 @@
 }
 
 #root .section3 .right {
-  padding-left: 128px;
+  padding-left: 8.3%;
   padding-top: 234px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -29,15 +29,25 @@
   font-family: 'KoPub_Bold';
 }
 
-#root .section3 .mainimg {
+#root .section3 .test {
+  width: 500px;
+  height: 500px;
+}
+
+#root .section3 .mainimg_pc {
   position: absolute;
   top: 0;
   right: 0;
-  width: 883px;
+  width: 57.4%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100%;
+  background-image: url("../backgorundImage/s3_pc.png");
+  background-image: -webkit-image-set(url("../backgorundImage/s3_pc@2x.png") 2x, url("../backgorundImage/s3_pc@3x.png") 3x);
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1280px) {
   #root .section3 {
     height: auto;
     -webkit-box-orient: vertical;
@@ -62,7 +72,7 @@
     font-size: 25px;
     margin-top: 12.7px;
   }
-  #root .section3 .mainimg {
+  #root .section3 .mainimg_mb {
     position: unset;
     width: 100%;
   }

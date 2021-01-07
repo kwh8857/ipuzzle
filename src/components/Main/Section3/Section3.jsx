@@ -16,16 +16,17 @@ function Section3() {
           </span>
         </div>
       </div>
-      <img
-        className="mainimg"
-        src={`/assets/main/s3_${Agent === "PC" ? "pc" : "mb"}.png`}
-        srcSet={`/assets/main/s3_${
-          Agent === "PC" ? "pc" : "mb"
-        }@2x.png 2x , /assets/main/s3_${
-          Agent === "PC" ? "pc" : "mb"
-        }@3x.png 3x`}
-        alt="이미지"
-      />
+
+      {Agent === "PC" ? (
+        <div className="mainimg_pc" />
+      ) : (
+        <img
+          className="mainimg_mb"
+          src={`/assets/main/s3_mb.png`}
+          srcSet={`/assets/main/s3_mb@2x.png 2x , /assets/main/s3_mb@3x.png 3x`}
+          alt="이미지"
+        />
+      )}
     </div>
   );
 }

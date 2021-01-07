@@ -1,5 +1,5 @@
 #root .section9 {
-  height: 760px;
+  height: 1280px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -31,7 +31,7 @@
   font-family: 'KoPub_Medium';
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1280px) {
   #root .section9 {
     height: 453px;
   }
