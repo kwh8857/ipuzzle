@@ -16,7 +16,6 @@ function App() {
         payload: "PC",
       });
     } else if (window.innerWidth < 1080 && Agent !== "MB") {
-      console.log("모바일");
       dispatch({
         type: "LAYOUTS/USER/CHANGE",
         payload: "MB",
@@ -25,11 +24,9 @@ function App() {
   }, [dispatch, Agent]);
 
   useEffect(() => {
-    console.log("몇번도는가");
     firstAgent();
     window.addEventListener("resize", firstAgent);
     return () => {
-      console.log("삭제");
       window.removeEventListener("resize", firstAgent);
     };
   }, [firstAgent]);
